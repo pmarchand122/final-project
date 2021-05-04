@@ -1,0 +1,37 @@
+//site colors
+$site-purple: #540d6e;
+$site-red: #ee4367;
+$site-yellow: #ffd140;
+$site-blue: #3bceab;
+$site-green: #08ad69;
+
+$yellow-overlay: rgb(255, 209, 64, 0.8);
+$red-overlay: rgb(238, 67, 103, 0.8);
+$green-overlay: rgb(8, 173, 105, 0.8);
+$purple-overlay: rgb(84, 13, 110, 0.8);
+$blue-overlay: rgb(59, 206, 171, 0.8);
+
+@font-face {
+  font-family: PTSerifBold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSerifBoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PTSerifItalic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+  font-family: PTSerifRegular;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}

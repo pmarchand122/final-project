@@ -1,0 +1,33 @@
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 70px;
+  //background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .links {
+    padding-top: 30px;
+    display: flex;
+
+    .line {
+      padding-left: 10px;
+      height: 20px;
+      border-right: 1px solid $site-red;
+      display: inline-block;
+      transform: rotate(20deg);
+    }
+
+    a {
+      padding-left: 15px;
+      text-decoration: none;
+      color: white;
+      font-family: GillSans;
+      font-size: 15px;
+    }
+  }
+}

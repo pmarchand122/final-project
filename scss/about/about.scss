@@ -1,0 +1,44 @@
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 85px;
+  .aboutImage {
+    background-image: linear-gradient(
+        to right,
+        $yellow-overlay,
+        $yellow-overlay
+      ),
+      url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 378.75px;
+    .aboutLargeText {
+      width: 210px;
+      font-family: GillSans;
+      font-size: 25px;
+      padding-top: 355px;
+      border-bottom: 2px solid black;
+      p {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .aboutsmallTEXT {
+    height: 96px;
+    margin-top: 36px;
+    padding-top: 20px;
+    margin-bottom: 150px;
+    font-family: PTSerifItalic;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about {
+    .aboutsmallTEXT {
+      padding: 15px;
+    }
+  }
+}

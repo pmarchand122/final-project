@@ -1,0 +1,65 @@
+.bPage {
+  max-width: 980px;
+  margin: 50px auto;
+
+  .bImage {
+    height: 300px;
+    background-image: linear-gradient(to right, $red-overlay, $red-overlay),
+      url(../images/blog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+
+    .bDate {
+      height: 155px;
+      width: 155px;
+      background-color: $site-red;
+      margin: 0 auto;
+      padding-top: 30px;
+      text-align: center;
+      color: white;
+      font-family: GillSans;
+
+      .bDay {
+        font-size: 55px;
+        font-weight: bold;
+        margin-bottom: -20px;
+      }
+
+      .bMonth {
+        font-size: 31px;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .bInfo {
+    margin-top: 55px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    .binfoSection {
+      margin-bottom: 60px;
+      .bHeader {
+        font-family: GillSans;
+        color: $site-red;
+        margin-bottom: 33px;
+      }
+      .bText {
+        font-family: GillSans;
+        font-weight: lighter;
+        p {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .bPage {
+    .bInfo {
+      padding: 15px;
+    }
+  }
+}

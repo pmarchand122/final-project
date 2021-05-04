@@ -1,0 +1,234 @@
+.gPage {
+  max-width: 980px;
+  margin: 50px auto;
+
+  .yellowImage {
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        $yellow-overlay,
+        $yellow-overlay
+      ),
+      url(../images/gallery/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .yellowNUMBER {
+      color: $site-yellow;
+      font-size: 300px;
+      font-family: GillSans;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 125px;
+    }
+
+    .yellowTEXT {
+      color: $site-yellow;
+      font-family: GillSans;
+      font-size: 140px;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 270px;
+    }
+  }
+
+  .redImage {
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to right, $red-overlay, $red-overlay),
+      url(../images/gallery/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .redNUMBER {
+      color: $site-red;
+      font-size: 300px;
+      font-family: GillSans;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 125px;
+    }
+
+    .redTEXT {
+      color: $site-red;
+      font-family: GillSans;
+      font-size: 140px;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 270px;
+    }
+  }
+
+  .greenImage {
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to right, $green-overlay, $green-overlay),
+      url(../images/gallery/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .greenNUMBER {
+      color: $site-green;
+      font-size: 300px;
+      font-family: GillSans;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 125px;
+    }
+
+    .greenTEXT {
+      color: $site-green;
+      font-family: GillSans;
+      font-size: 140px;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 270px;
+    }
+  }
+
+  .purpleImage {
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        $purple-overlay,
+        $purple-overlay
+      ),
+      url(../images/gallery/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .purpleNUMBER {
+      color: $site-purple;
+      font-size: 300px;
+      font-family: GillSans;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 125px;
+    }
+
+    .purpleTEXT {
+      color: $site-purple;
+      font-family: GillSans;
+      font-size: 115px;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 293px;
+    }
+  }
+
+  .blueImage {
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to right, $blue-overlay, $blue-overlay),
+      url(../images/gallery/5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .blueNUMBER {
+      color: $site-blue;
+      font-size: 300px;
+      font-family: GillSans;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 125px;
+    }
+
+    .blueTEXT {
+      color: $site-blue;
+      font-family: GillSans;
+      font-size: 140px;
+      text-shadow: 8px 5px 5px rgb(0, 0, 0, 0.16);
+      padding-top: 270px;
+    }
+  }
+
+  .gInfo {
+    display: flex;
+    font-family: PTSerifItalic;
+    font-size: 16px;
+    padding-bottom: 40px;
+
+    .gsmallTEXT {
+      width: 490px;
+      padding-right: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .gPage {
+    .gInfo {
+      padding: 15px;
+    }
+    .yellowImage {
+      .yellowNUMBER {
+        font-size: 150px;
+        padding-top: 262px;
+      }
+
+      .yellowTEXT {
+        font-size: 70px;
+        padding-top: 336px;
+      }
+    }
+
+    .redImage {
+      .redNUMBER {
+        font-size: 250px;
+        padding-top: 171px;
+      }
+
+      .redTEXT {
+        font-size: 100px;
+        padding-top: 307px;
+      }
+    }
+
+    .greenImage {
+      .greenNUMBER {
+        font-size: 250px;
+        padding-top: 171px;
+      }
+
+      .greenTEXT {
+        font-size: 100px;
+        padding-top: 307px;
+      }
+    }
+
+    .purpleImage {
+      .purpleNUMBER {
+        font-size: 200px;
+        padding-top: 215px;
+      }
+
+      .purpleTEXT {
+        font-size: 60px;
+        padding-top: 344px;
+      }
+    }
+
+    .blueImage {
+      .blueNUMBER {
+        font-size: 200px;
+        padding-top: 215px;
+      }
+
+      .blueTEXT {
+        font-size: 60px;
+        padding-top: 344px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  footer {
+    .shortFooter {
+      margin-top: 200px;
+    }
+  }
+}

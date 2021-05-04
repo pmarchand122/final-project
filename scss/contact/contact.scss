@@ -1,0 +1,99 @@
+.contact {
+  max-width: 980px;
+  margin: 40px auto;
+  font-family: GillSans;
+
+  .largecontactTEXT {
+    width: 229px;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+
+  .contactForm {
+    height: 523px;
+    display: flex;
+    justify-content: space-between;
+
+    .form {
+      color: #707070;
+      font-size: 16px;
+
+      .skinny {
+        width: 529px;
+        height: 60px;
+        background-color: #f5f5f5;
+        margin-bottom: 20px;
+        p {
+          padding-top: 20px;
+          padding-left: 10px;
+        }
+      }
+
+      .large {
+        width: 529px;
+        height: 199px;
+        background-color: #f5f5f5;
+        margin-bottom: 20px;
+        p {
+          padding-top: 20px;
+          padding-left: 20px;
+        }
+      }
+
+      .sendMessage {
+        width: 168px;
+        height: 60px;
+        background-color: $site-red;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+
+    .map {
+      width: 400px;
+      height: 442px;
+      background-image: url(../images/map.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .contact {
+    .contactForm {
+      display: block;
+      .form {
+        .skinny {
+          margin: 0 auto 20px;
+        }
+        .large {
+          margin: 0 auto 20px;
+        }
+        .sendMessage {
+          margin: 0 auto 20px;
+        }
+      }
+
+      .map {
+        margin: 0 auto 20px;
+      }
+    }
+  }
+
+  footer {
+    .contactfooter {
+      margin-top: 520px;
+    }
+  }
+}

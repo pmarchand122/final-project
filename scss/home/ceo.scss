@@ -1,0 +1,36 @@
+.ceo {
+  height: 300px;
+  margin-top: 140px;
+  //background-color: blue;
+  .quote {
+    padding-top: 70px;
+    height: 90px;
+    max-width: 789px;
+    margin: 0 auto;
+    //background-color: blue;
+    .yellowTEXT {
+      color: $site-yellow;
+      font-family: PTSerifBoldItalic;
+      font-size: 15px;
+    }
+
+    .nameANDtitle {
+      .name {
+        color: $site-red;
+        font-family: PTSerifRegular;
+        font-size: 15px;
+      }
+      .title {
+        color: #a8a8a8;
+        font-family: PTSerifRegular;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .ceo {
+    padding: 15px;
+  }
+}

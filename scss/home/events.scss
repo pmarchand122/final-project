@@ -1,0 +1,88 @@
+.upcomingEvents {
+  background-color: $site-purple;
+  height: 320px;
+  .eventContent {
+    max-width: 1198px;
+    margin: 0 auto;
+
+    .upcomingLARGE {
+      width: 392px;
+      //position: static;
+      font-family: GillSans;
+      color: white;
+      font-size: 25px;
+      border-bottom: 2px solid white;
+      padding-top: 40px;
+      p {
+        margin: 5px;
+      }
+    }
+
+    .events {
+      margin-top: 60px;
+      height: 124px;
+      display: flex;
+
+      .event {
+        display: flex;
+        padding-left: 15px;
+        //background-color: brown;
+
+        .date {
+          height: 60px;
+          min-width: 60px;
+          margin-right: 20px;
+          background-color: $site-red;
+          color: white;
+          .day {
+            padding-top: 10px;
+            text-align: center;
+            font-family: GillSans;
+            font-size: 22px;
+          }
+          .month {
+            text-align: center;
+            font-family: GillSans;
+            font-size: 12px;
+            margin-top: -15px;
+          }
+        }
+
+        .upcomingsmallTEXT {
+          max-width: 140px;
+          .smallWHITE {
+            color: white;
+            font-family: GillSans;
+            font-size: 15px;
+          }
+          .smallRED {
+            color: $site-red;
+            font-family: GillSans;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .upcomingEvents {
+    height: 660px;
+    .eventContent {
+      .events {
+        display: block;
+        .event {
+          width: 500px;
+          margin: 0 auto 20px;
+          justify-content: center;
+
+          .upcomingsmallTEXT {
+            min-width: 380px;
+            //background-color: blueviolet;
+          }
+        }
+      }
+    }
+  }
+}

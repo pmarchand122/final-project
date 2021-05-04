@@ -1,0 +1,76 @@
+footer {
+  background-color: $site-red;
+  display: block;
+  color: white;
+  font-family: GillSans;
+  .galleryfooter {
+    //background-color: cadetblue;
+    max-width: 696px;
+    margin: 0 auto;
+    padding-top: 40px;
+    .galleryfooterLOGO {
+      width: 90px;
+      //background-color: chocolate;
+      //padding-left: 300px;
+      margin: 0 auto;
+      img {
+        a {
+        }
+      }
+    }
+
+    .galleryCONTACT {
+      max-width: 382px;
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin-left: 75px;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+
+    .gallerysubscribe {
+      display: flex;
+      justify-content: center;
+      height: 60px;
+      align-items: center;
+      font-size: 16px;
+      .gallerysignupBOX {
+        background-color: #f56b88;
+        width: 529px;
+        p {
+          opacity: 50%;
+          padding-top: 15px;
+          padding-left: 20px;
+        }
+      }
+      .gallerysubscribeBUTTON {
+        background-color: white;
+        width: 167px;
+        color: $site-red;
+        padding-top: 15px;
+        text-align: center;
+      }
+    }
+
+    .gallerysocialMedia {
+      width: 170px;
+      //background-color: royalblue;
+      margin: 20px auto;
+      height: 31px;
+      svg {
+        margin-left: 20px;
+      }
+    }
+
+    .gallerycopyright {
+      margin-top: 40px;
+      text-align: center;
+      padding-bottom: 20px;
+      font-size: 12px;
+      p {
+        opacity: 50%;
+      }
+    }
+  }
+}

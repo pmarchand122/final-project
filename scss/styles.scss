@@ -1,0 +1,26 @@
+@import "variables.scss";
+@import "structure.scss";
+@import "footer.scss";
+@import "galleryFooter.scss";
+@import "blogFooter.scss";
+@import "contactFooter.scss";
+
+//home assets
+@import "home/hero.scss";
+@import "home/ceo.scss";
+@import "home/events.scss";
+@import "home/nav.scss";
+
+//about assets
+@import "about/about.scss";
+
+//gallery assets
+@import "gallery/gallery.scss";
+@import "gallery/galleryPages.scss";
+
+//blog assets
+@import "blog/blog.scss";
+@import "blog/blogPages.scss";
+
+//contact assets
+@import "contact/contact.scss";

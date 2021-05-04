@@ -1,0 +1,60 @@
+.hero {
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+
+  .homeHeader {
+    width: 316px;
+    font-family: PTSerifRegular;
+    margin: 40px auto;
+    //background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    p {
+      color: $site-red;
+    }
+  }
+
+  .smallTEXThero {
+    max-width: 714px;
+    font-family: PTSerifRegular;
+    //background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .readMORE {
+    width: 121px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    background-color: $site-red;
+    a {
+      text-decoration: none;
+      font-family: GillSans;
+      color: white;
+      font-size: 15px;
+    }
+  }
+}
+
+.backgroundImage {
+  background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay),
+    url(../images/home-hero.jpg);
+  height: 500px;
+}
+
+.whiteNav {
+  border-bottom: 2px solid white;
+}
+
+.blackNav {
+  border-bottom: 2px solid black;
+}
